@@ -143,5 +143,11 @@ Project: Smart Traffic Management System
 <br><br>
 ⭐ *Building • Learning • Solving • Improving*
 
+## 🎮 Contribution Game
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/kavinkumar20066/kavinkumar20066/main/assets/game.gif" alt="GitHub Space Shooter" width="100%" />
+</div>
+
 </div>
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,50:0072ff,100:7b2ff7&height=150&section=footer" width="100%"/>
