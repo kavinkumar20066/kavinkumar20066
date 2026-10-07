@@ -1,4 +1,7 @@
 <div align="center">
+  <img src="https://wsrv.nl/?url=raw.githubusercontent.com/kavinkumar20066/kavinkumar20066/main/kavinkumar_profile.jpeg&w=1280&h=720&fit=contain&cbg=0d1117" alt="Kavin Kumar S - AI Engineering" width="100%" />
+</div>
+<div align="center">
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35">
   <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=800&size=32&duration=3000&pause=1500&color=FFD700&center=true&vCenter=true&width=420&height=50&lines=Hi,+I'm+KavinKumar+S" alt="KavinKumar S" />
 </div>
