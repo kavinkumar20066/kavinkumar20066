@@ -3,7 +3,7 @@ name: Update Space Shooter Game
 on:
   schedule:
     - cron: '0 0 * * *'   # daily at midnight UTC
-  workflow_dispatch:       # lets you run it manually
+  workflow_dispatch:       # manual run button
 
 permissions:
   contents: write
@@ -13,8 +13,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-        with:
-          fetch-depth: 2   # needed for the amend feature
+
+      - name: Create assets folder
+        run: mkdir -p assets
 
       - uses: czl9707/gh-space-shooter@v2
         with:
@@ -22,3 +23,12 @@ jobs:
           username: kavinkumar20066
           output-path: 'assets/game.gif'
           strategy: 'random'
+          no-commit: true   # we commit in the next step
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/game.gif
+          git diff --cached --quiet || git commit -m "Update space shooter game"
+          git push
